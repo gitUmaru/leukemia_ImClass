@@ -3,7 +3,7 @@
 This project is motivated by a free data set that I found online from the IEEE Biomedical Society, it contains very hard to distinguish image samples of cancer and healthy cells. In this project I hope to build a machine learning model that can accurately classify such images. I want to use both Google's Tensorflow API and the teachable machine website (MobileNet) for quick and easy deployment.
 
 ## Demo
-[Python Notebook (hosted on google platform)](https://colab.research.google.com/drive/1_OWkGEKsQ-966SutA3tQFFm2tUMgIHV-)
+[Python Notebook](https://colab.research.google.com/drive/1_OWkGEKsQ-966SutA3tQFFm2tUMgIHV-)
 
 ## Packages
 - Tensorflow (TF) / TF Keras API
