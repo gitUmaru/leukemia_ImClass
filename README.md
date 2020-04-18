@@ -15,17 +15,11 @@ This project is motivated by a free data set that I found online from the IEEE B
 
 ```
 pip install virtualenv
-```
 
-```
 pip install tensorflow
-```
 
-```
 virtualenv tf_leuk
-```
 
-```
 env\scripts\activate
 ```
 
