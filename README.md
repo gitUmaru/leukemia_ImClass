@@ -45,6 +45,8 @@ Nonetheless, here is an image of a cancerous cell and its respective prediction.
 
 As you can tell from the output of the prediction, the model does not work as well as I would have hoped it to. This simply means that I must retrain it on more data, with maybe even a better machine learning model.
 
+If you wish to use the code yourself, please refer to main.py for some of the actual demo code or you can look at the python notebook that I linked above. If you get any good results, please open a discussion or issue and let me know; I would be very excited to see this simple model work well.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
