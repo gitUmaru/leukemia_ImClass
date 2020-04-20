@@ -25,6 +25,12 @@ env\scripts\activate
 pip install -r requirements.txt
 ```
 
+For whatever reason GitHub kept telling me that Pillow had a vulnerability issue so please install pillow separately.
+
+```
+pip install Pillow
+```
+
 ## Results
 So far the results of the image classifier are not very satisfactory, mainly due to the fact the model was trained on a MobileNet of non-medical related images. As a result of this, I plan to build and train the model as I read the tensorflow documentation; although I was really hoping to use the Teachable Machine website since deployment would have been very easy.
 
