@@ -21,19 +21,29 @@ pip install tensorflow
 virtualenv tf_leuk
 
 env\scripts\activate
-```
 
-(current version of repo has no requirements.txt so ignore)
-
-```
 pip install -r requirements.txt
 ```
 
 ## Results
-Under construction
+So far the results of the image classifier are not very satisfactory, mainly due to the fact the model was trained on a MobileNet of non-medical related images. As a result of this, I plan to build and train the model as I read the tensorflow documentation; although I was really hoping to use the Teachable Machine website since deployment would have been very easy.
 
-## Usage
-Under construction
+Nonetheless, here is an image of a cancerous cell and its respective prediction.
+
+<p align=center>
+  <img width="330" height="auto" src='UID_H10_14_1_hem.bmp'>
+</p>
+<p align=center>
+  <b>Figure 1.</b> Microscope image  of a malignant B-ALL white blood cancer cell (ground truth attained by expert pathologist)
+</p>
+
+```
+[[% of healthy cell,  % of cancer cell]]
+[[0.54169554 0.45830446]]
+[Finished in 29.738s]
+```
+
+As you can tell from the output of the prediction, the model does not work as well as I would have hoped it to. This simply means that I must retrain it on more data, with maybe even a better machine learning model.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
